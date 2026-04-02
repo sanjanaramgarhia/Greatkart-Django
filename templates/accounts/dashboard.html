@@ -1,0 +1,147 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="section-content padding-y bg">
+<div class="container">
+    <div class="row">
+
+        <!-- ── Sidebar ── -->
+        <div class="col-md-3">
+            <div class="card mb-2" style="border-radius:4px; overflow:hidden;">
+                <div class="list-group list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action active" style="padding:14px 20px; font-size:14px; font-weight:600; background-color:#3d5a99; border-color:#3d5a99; color:#fff;">
+                        My order history
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" style="padding:14px 20px; font-size:14px; color:#555;">
+                        Transactions
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" style="padding:14px 20px; font-size:14px; color:#555;">
+                        Return and refunds
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" style="padding:14px 20px; font-size:14px; color:#555;">
+                        Settings
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" style="padding:14px 20px; font-size:14px; color:#555;">
+                        My Selling Items
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action" style="padding:14px 20px; font-size:14px; color:#555;">
+                        Received orders
+                    </a>
+                </div>
+            </div>
+            <a href="{% url 'logout' %}" class="btn btn-light btn-block" style="border:1px solid #ddd; padding:12px 20px; font-size:14px; color:#555; border-radius:4px; display:flex; align-items:center; justify-content:center; gap:8px;">
+                &#9211; Log out
+            </a>
+        </div>
+        <!-- sidebar end -->
+
+        <!-- ── Main ── -->
+        <main class="col-md-9">
+            <article class="card mb-4">
+                <div class="card-body">
+
+                    <!-- Order ID + Date -->
+                    <div class="mb-3">
+                        <strong>Order ID: 6123456789</strong>
+                        &nbsp;&nbsp;
+                        <span class="text-muted">Order Date: 16 December 2018</span>
+                    </div>
+
+                    <!-- Delivery + Payment row -->
+                    <div class="row mb-3">
+                        <div class="col-md-7">
+                            <p class="text-muted mb-1" style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em;">Delivery to</p>
+                            <p class="mb-0" style="font-size:13px; line-height:1.9; color:#444;">
+                                Michael Jackson<br>
+                                Phone +1234567890 &nbsp; Email: myname@pixsellz.com<br>
+                                Location: Home number, Building name, Street 123, Tashkent, UZB<br>
+                                P.O. Box: 100123
+                            </p>
+                        </div>
+                        <div class="col-md-5 text-right">
+                            <p class="text-muted mb-1" style="font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:.04em;">Payment</p>
+                            <p class="mb-1">
+                                <span style="background:#1a1f71; color:#fff; font-size:11px; font-weight:700; padding:2px 8px; border-radius:3px; letter-spacing:.05em;">VISA</span>
+                                <span class="text-muted" style="font-size:13px;"> **** 4216</span>
+                            </p>
+                            <p class="mb-1 text-muted" style="font-size:13px;">Subtotal: $356</p>
+                            <p class="mb-1 text-muted" style="font-size:13px;">Shipping fee: $56</p>
+                            <p class="mb-0" style="font-size:14px; font-weight:700; color:#222;">Total: $456</p>
+                        </div>
+                    </div>
+
+                    <!-- Items table -->
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+
+                            <tr>
+                                <td width="65">
+                                    <img src="{% static 'images/items/1.jpg' %}" class="img-xs border" alt="Product 1" onerror="this.style.background='#f0f0f0';this.style.width='50px';this.style.height='50px'">
+                                </td>
+                                <td>
+                                    <p class="title mb-0">Product name goes here</p>
+                                    <var class="price text-muted">USD 145</var>
+                                </td>
+                                <td>Seller <br> Nike clothing</td>
+                                <td width="250">
+                                    <a href="#" class="btn btn-outline-primary">Track order</a>
+                                    <a href="#" class="btn btn-light">Details</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="65">
+                                    <img src="{% static 'images/items/2.jpg' %}" class="img-xs border" alt="Product 2" onerror="this.style.background='#f0f0f0';this.style.width='50px';this.style.height='50px'">
+                                </td>
+                                <td>
+                                    <p class="title mb-0">Another name goes here</p>
+                                    <var class="price text-muted">USD 15</var>
+                                </td>
+                                <td>Seller <br> ABC shop</td>
+                                <td width="250">
+                                    <a href="#" class="btn btn-outline-primary">Track order</a>
+                                    <a href="#" class="btn btn-light">Details</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td width="65">
+                                    <img src="{% static 'images/items/3.jpg' %}" class="img-xs border" alt="Product 3" onerror="this.style.background='#f0f0f0';this.style.width='50px';this.style.height='50px'">
+                                </td>
+                                <td>
+                                    <p class="title mb-0">The name of the product goes here</p>
+                                    <var class="price text-muted">USD 145</var>
+                                </td>
+                                <td>Seller <br> Wallmart</td>
+                                <td width="250">
+                                    <a href="#" class="btn btn-outline-primary">Track order</a>
+                                    <a href="#" class="btn btn-light">Details</a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div><!-- table-responsive end -->
+
+                </div>
+            </article>
+        </main>
+        <!-- main end -->
+
+    </div><!-- row end -->
+</div>
+</section>
+
+<style>
+    .list-group-item-action:hover {
+        background-color: #f5f7ff !important;
+        color: #3d5a99 !important;
+    }
+    .list-group-item.active {
+        background-color: #3d5a99 !important;
+        border-color: #3d5a99 !important;
+        color: #fff !important;
+    }
+</style>
+
+{% endblock %}
