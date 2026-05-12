@@ -8,7 +8,9 @@
 <div class="container">
 
 <!-- ============================ COMPONENT 1 ================================= -->
+<h4 class="text-center mb-10">Review Your Order and Make Payment</h4>
 <div class="row">
+	
 	<aside class="col-lg-8">
         <div class="card">
                             <h5 class="card-header">Billing Address</h5>
@@ -33,17 +35,17 @@
 					<h5 class="card-header">Review Products</h5>
 					<div class="card-body">
 						<table class="table table-borderless table-shopping-cart">
-							<thead class="text-muted">
+								<thead class="text-muted">
 								<tr class="small text-uppercase">
 									<th scope="col">Product</th>
 									<th scope="col" width="120">Quantity</th>
 									<th scope="col" width="120">Price</th>
 
 								</tr>
-							</thead>
-							<tbody>
+								</thead>
+								<tbody>
 
-								
+								{% for cart_item in cart_items %}
 								<tr>
 									<td>
 										<figure class="itemside align-items-center">
@@ -52,9 +54,9 @@
 												<a href="{{ cart_item.product.get_url }}" class="title text-dark">{{ cart_item.product.product_name }}</a>
 												<p class="text-muted small">
 													{% if cart_item.variations.all %}
-													{% for item in cart_item.variations.all %}
-													{{ item.variation_category | capfirst }} : {{ item.variation_value | capfirst }} <br>
-													{% endfor %}
+														{% for item in cart_item.variations.all %}
+															{{ item.variation_category | capfirst }} : {{ item.variation_value | capfirst }} <br>
+														{% endfor %}
 													{% endif %}
 												</p>
 											</figcaption>
@@ -62,13 +64,21 @@
 									</td>
 									<td>
 										<!-- col.// -->
-										<label for="">{{cart_item.quantity}}</label>
+												<label for="">{{cart_item.quantity}}</label>
 									</td>
 									<td>
 										<div class="price-wrap">
 											<var class="price">$ {{ cart_item.sub_total }}</var>
 											<small class="text-muted"> $ {{ cart_item.product.price }} each </small>
-                        </div> <!-- price-wrap .// -->
+										</div> <!-- price-wrap .// -->
+									</td>
+
+								</tr>
+								{% endfor %}
+
+								</tbody>
+						</table>
+					</div> <!-- price-wrap .// -->
 </div> <!-- card.// -->
 
 	</aside> <!-- col.// -->
@@ -92,8 +102,10 @@
 			<p class="text-center mb-3">
 				<img src="{% static './images/misc/payments.png' %}" height="26">
 			</p>
-			<a href="{% url 'checkout' %}" class="btn btn-primary btn-block"> Make payment </a>
-
+            
+			<div id="paypal-button-container">
+							<!-- PayPal Button Will Load -->
+			</div>
 		</div> <!-- card-body.// -->
 		</div> <!-- card.// -->
 
@@ -105,5 +117,43 @@
 
 </div> <!-- container .//  -->
 </section>
+
+ <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID&currency=USD"></script>
+
+<div id="paypal-button-container"></div>
+
+<script>
+	var amount = {{ grand_total }}
+	paypal.Buttons({
+
+		style: {
+				color: 'blue',
+				shape: 'rect',
+				label: 'pay',
+				height: 40
+			},
+
+		createOrder: function(data, actions) {
+			return actions.order.create({
+				purchase_units: [{
+					amount: {
+						value: amount,
+					}
+				}]
+			});
+		},
+
+		onApprove: function(data, actions) {
+			return actions.order.capture().then(function(details) {
+				console.log(details);
+				alert("Transaction completed by " + details.payer.name.given_name);
+
+				console.log(details);
+
+			});
+		}
+
+	}).render('#paypal-button-container');
+</script>
 
 {% endblock %}
