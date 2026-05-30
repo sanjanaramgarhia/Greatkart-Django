@@ -9,17 +9,19 @@ from .models import Order, Payment, OrderProduct
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
 
+
 def payments(request):
     body = json.loads(request.body)
-    order = Order.objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
+    order = Order.objects.get(
+        user=request.user, is_ordered=False, order_number=body['orderID'])
 
     # Store transaction details inside Payment model
     payment = Payment(
-        user = request.user,
-        payment_id = body['transID'],
-        payment_method = body['payment_method'],
-        amount_paid = order.order_total,
-        status = body['status'],
+        user=request.user,
+        payment_id=body['transID'],
+        payment_method=body['payment_method'],
+        amount_paid=order.order_total,
+        status=body['status'],
     )
     payment.save()
 
@@ -29,6 +31,7 @@ def payments(request):
 
     # Move the cart items to Order Product table
     cart_items = Cartitem.objects.filter(user=request.user)
+    print(cart_items)
 
     for item in cart_items:
         orderproduct = OrderProduct()
@@ -114,13 +117,14 @@ def place_order(request, total=0, quantity=0,):
             yr = int(datetime.date.today().strftime('%Y'))
             dt = int(datetime.date.today().strftime('%d'))
             mt = int(datetime.date.today().strftime('%m'))
-            d = datetime.date(yr,mt,dt)
-            current_date = d.strftime("%Y%m%d") #20210305
+            d = datetime.date(yr, mt, dt)
+            current_date = d.strftime("%Y%m%d")  # 20210305
             order_number = current_date + str(data.id)
             data.order_number = order_number
             data.save()
 
-            order = Order.objects.get(user=current_user, is_ordered=False, order_number=order_number)
+            order = Order.objects.get(
+                user=current_user, is_ordered=False, order_number=order_number)
             context = {
                 'order': order,
                 'cart_items': cart_items,
@@ -132,7 +136,8 @@ def place_order(request, total=0, quantity=0,):
 
     else:
         return redirect('checkout')
-    
+
+
 def order_complete(request):
     order_number = request.GET.get('order_number')
     transID = request.GET.get('payment_id')
