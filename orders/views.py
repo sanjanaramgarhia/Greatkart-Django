@@ -31,7 +31,6 @@ def payments(request):
 
     # Move the cart items to Order Product table
     cart_items = Cartitem.objects.filter(user=request.user)
-    print(cart_items)
 
     for item in cart_items:
         orderproduct = OrderProduct()
