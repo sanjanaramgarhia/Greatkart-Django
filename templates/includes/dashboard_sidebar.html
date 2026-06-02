@@ -6,10 +6,8 @@
                 href="{% url 'dashboard' %}"> Dashboard </a>
             <a class="list-group-item {% if '/my_orders/' in request.path %}active{% endif %}"
                 href="{% url 'my_orders' %}"> My Orders </a>
-            <a href="#" class="list-group-item list-group-item-action"
-                style="padding:14px 20px; font-size:14px; color:#555;">
-                Edit Profile
-            </a>
+            <a class="list-group-item {% if '/edit_profile/' in request.path %}active{% endif %}"
+                href="{% url 'edit_profile' %}"> Edit Profile </a>
             <a href="#" class="list-group-item list-group-item-action"
                 style="padding:14px 20px; font-size:14px; color:#555;">
                 Change Password
