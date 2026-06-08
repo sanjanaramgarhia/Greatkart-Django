@@ -1,6 +1,6 @@
 # 🛒 GreatKart - Django E-Commerce Application
 
-A full-featured E-Commerce web application built with Django that simulates a real-world online shopping platform. The project includes user authentication, product management, shopping cart functionality, PayPal payment integration, order processing, product reviews, and user profile management.
+A full-featured E-Commerce web application built with Django that simulates a real-world online shopping platform. The application includes user authentication, product management, shopping cart functionality, PayPal payment integration, order processing, product reviews, ratings, and user profile management.
 
 ---
 
@@ -23,29 +23,22 @@ This project demonstrates practical implementation of Django's MVT architecture,
 * User Dashboard
 * Edit Profile
 * Change Password
-* Manage Account Details
-
----
+* Account Management
 
 ### 🛍 Product Management
 
-* Product Categories & Subcategories
+* Product Categories
 * Product Listings
 * Product Detail Pages
-* Product Availability Management
 * Product Image Gallery
 * Featured Products
-
----
 
 ### 🔍 Search & Navigation
 
 * Product Search
-* Category-Based Filtering
+* Category Filtering
 * Keyword Search
 * Dynamic Product Browsing
-
----
 
 ### 🛒 Shopping Cart System
 
@@ -55,47 +48,103 @@ This project demonstrates practical implementation of Django's MVT architecture,
 * Cart Total Calculation
 * Session-Based Cart Management
 
----
+### 💳 PayPal Integration
 
-### 💳 PayPal Payment Integration
-
+* Secure Checkout
 * PayPal Sandbox Integration
-* Secure Checkout Workflow
 * Payment Verification
-* Order Completion Process
-* Payment Status Tracking
-
-> Implemented end-to-end payment processing using PayPal Sandbox accounts to simulate real-world e-commerce transactions and checkout workflows.
-
----
-
-### 📦 Order Management
-
-* Place Orders
-* Order Confirmation
-* Order Summary
-* Order History
-* Order Tracking
-
----
+* Order Completion Workflow
 
 ### ⭐ Reviews & Ratings
 
-* Product Reviews
-* Product Rating System
-* Review Submission
-* Customer Feedback Management
+* Product Ratings
+* Customer Reviews
+* Feedback Management
 
 ---
 
-### ⚙️ Admin Features
+# 📸 Application Screenshots
 
-* Product Management
-* Category Management
-* User Management
-* Order Management
-* Review Moderation
-* Inventory Monitoring
+## 🏠 Homepage
+
+The homepage provides featured products, categories, and promotional content to help users quickly explore the store.
+
+<img src="images/homepage.png" width="900" alt="Homepage">
+
+---
+
+## 🛍 Store Page
+
+Users can browse products, explore categories, and search for items efficiently.
+
+<img src="images/store.png" width="900" alt="Store Page">
+
+**Features Shown:**
+
+* Product Listings
+* Category Navigation
+* Search Functionality
+* Product Cards
+
+---
+
+## 👤 User Dashboard
+
+The dashboard allows users to manage profiles, view order history, and update account information.
+
+<img src="images/dashboard.png" width="900" alt="Dashboard">
+
+**Features Shown:**
+
+* User Profile Management
+* Order History
+* Account Settings
+* Personal Dashboard
+
+---
+
+## 📄 Billing & Checkout
+
+Customers can review their order details and enter billing information before completing payment.
+
+<img src="images/billing-page.png" width="900" alt="Billing Page">
+
+**Features Shown:**
+
+* Billing Information
+* Shipping Details
+* Order Summary
+* Checkout Workflow
+
+---
+
+## 💳 PayPal Payment Gateway
+
+Integrated PayPal Sandbox enables secure payment processing and simulates real-world transactions.
+
+<img src="images/paypal-payment.png" width="900" alt="PayPal Payment">
+
+**Features Shown:**
+
+* Secure Payment Processing
+* PayPal Integration
+* Transaction Verification
+* Order Confirmation
+
+---
+
+## ⭐ Ratings & Reviews
+
+Customers can leave reviews and ratings for products, helping future buyers make informed decisions.
+
+<img src="images/rating-review.png" width="900" alt="Ratings and Reviews">
+
+**Features Shown:**
+
+* Product Ratings
+* Customer Reviews
+* Review Submission
+* Feedback Management
 
 ---
 
@@ -104,16 +153,17 @@ This project demonstrates practical implementation of Django's MVT architecture,
 ```text
 GreatKart-Django/
 │
-├── accounts/          # Authentication & User Management
-├── carts/             # Shopping Cart Functionality
-├── category/          # Product Categories
-├── orders/            # Order Processing & Payments
-├── store/             # Product Management
+├── accounts/
+├── carts/
+├── category/
+├── orders/
+├── store/
 │
-├── templates/         # HTML Templates
-├── static/            # CSS, JS, Images
+├── templates/
+├── static/
+├── images/
 │
-├── greatcart/         # Project Configuration
+├── greatcart/
 ├── manage.py
 └── requirements.txt
 ```
@@ -149,54 +199,9 @@ GreatKart-Django/
 
 ---
 
-## 📸 Application Screenshots
-
-Create a folder named:
-
-```text
-screenshots/
-```
-
-Add screenshots such as:
-
-```text
-screenshots/
-├── homepage.png
-├── category-page.png
-├── product-detail.png
-├── cart.png
-├── checkout.png
-├── paypal-payment.png
-├── dashboard.png
-├── orders.png
-└── reviews.png
-```
-
-Then display them in the README:
-
-```md
-## Home Page
-
-![Home Page](screenshots/homepage.png)
-
-## Product Detail Page
-
-![Product Detail](screenshots/product-detail.png)
-
-## Shopping Cart
-
-![Cart](screenshots/cart.png)
-
-## PayPal Checkout
-
-![PayPal Checkout](screenshots/paypal-payment.png)
-```
-
----
-
 ## ⚡ Installation & Setup
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/sanjanaramgarhia/Greatkart-Django.git
@@ -211,13 +216,13 @@ python -m venv venv
 
 ### Activate Virtual Environment
 
-#### Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-#### Linux / Mac
+**Linux / macOS**
 
 ```bash
 source venv/bin/activate
@@ -229,10 +234,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Apply Database Migrations
+### Apply Migrations
 
 ```bash
-python manage.py makemigrations
 python manage.py migrate
 ```
 
@@ -258,35 +262,16 @@ http://127.0.0.1:8000/
 
 ## 🎯 Skills Demonstrated
 
-This project demonstrates:
-
 * Django MVT Architecture
-* Database Modeling
 * Django ORM
 * Authentication & Authorization
 * Session Management
 * Payment Gateway Integration
 * E-Commerce Business Logic
 * CRUD Operations
-* User Profile Management
-* Review & Rating Systems
 * Search & Filtering
+* User Profile Management
 * Order Processing Workflows
-* Git & GitHub
-
----
-
-## 📚 Learning Outcomes
-
-Through this project, I gained hands-on experience in:
-
-* Building production-style Django applications
-* Designing scalable database relationships
-* Implementing secure authentication systems
-* Developing shopping cart and checkout workflows
-* Integrating third-party payment services
-* Managing user-generated content and reviews
-* Handling real-world business requirements
 
 ---
 
@@ -296,7 +281,7 @@ Through this project, I gained hands-on experience in:
 * Stripe / Razorpay Integration
 * Wishlist Functionality
 * Coupon & Discount System
-* Product Recommendation System
+* Product Recommendation Engine
 * Docker Support
 * PostgreSQL Deployment
 * CI/CD Pipeline
@@ -308,11 +293,3 @@ Through this project, I gained hands-on experience in:
 Contributions, suggestions, and improvements are welcome.
 
 Feel free to fork the repository and submit a pull request.
-
----
-
-## ⭐ Support
-
-If you found this project helpful, please consider giving it a star on GitHub.
-
-Happy Coding! 🚀
