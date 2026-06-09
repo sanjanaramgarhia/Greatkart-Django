@@ -8,10 +8,8 @@
                 href="{% url 'my_orders' %}"> My Orders </a>
             <a class="list-group-item {% if '/edit_profile/' in request.path %}active{% endif %}"
                 href="{% url 'edit_profile' %}"> Edit Profile </a>
-            <a href="#" class="list-group-item list-group-item-action"
-                style="padding:14px 20px; font-size:14px; color:#555;">
-                Change Password
-            </a>
+            <a class="list-group-item {% if '/change_password/' in request.path %}active{% endif %}"
+                href="{% url 'change_password' %}"> Change Password </a>
         </div>
     </div>
     <a href="{% url 'logout' %}" class="btn btn-light btn-block"
