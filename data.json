@@ -1,0 +1,4863 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2026-03-09T09:01:10.782Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "1",
+            "object_repr": "jeans",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2026-03-09T09:02:06.550Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "2",
+            "object_repr": "shirts",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2026-03-09T09:03:00.145Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "3",
+            "object_repr": "shoes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2026-03-09T09:03:41.230Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "4",
+            "object_repr": "jackets",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2026-03-09T09:04:25.263Z",
+            "user": 1,
+            "content_type": 6,
+            "object_id": "5",
+            "object_repr": "tshirts",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2026-03-09T09:08:30.061Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2026-03-09T09:11:00.188Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Blue-Shirt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2026-03-09T09:17:03.153Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Great-Tshirt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2026-03-09T09:18:21.715Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Mavi-Jeans",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2026-03-09T09:18:39.841Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Mavi-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2026-03-09T09:20:59.529Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "jordan-true-flight-basketball-shoes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2026-03-09T09:22:08.032Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Puma-Ferrari-Shoes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2026-03-09T09:23:28.739Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "US-Polo-Assn-Jacket",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2026-03-09T09:24:24.693Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Wrangler-Shirt",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2026-03-09T09:28:02.137Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Wrangler-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2026-03-09T09:28:49.239Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Wrangler-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Stock\", \"Is available\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2026-03-11T09:54:38.885Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Variation object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2026-03-11T09:57:12.754Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Variation object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2026-03-11T09:57:23.159Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Variation object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2026-03-12T08:49:51.265Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Variation object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Variation value\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2026-03-12T09:09:56.914Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Variation object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2026-03-12T09:10:14.502Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "Variation object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2026-03-12T09:11:06.667Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Variation object (6)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2026-03-18T11:57:10.878Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Variation object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2026-03-18T11:58:18.129Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Variation object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2026-03-18T11:58:24.995Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Variation object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2026-03-18T12:08:33.127Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Variation object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Variation value\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2026-03-18T12:30:30.921Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Variation object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2026-03-18T12:33:01.037Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "Variation object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2026-03-18T12:33:14.039Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "6",
+            "object_repr": "Variation object (6)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2026-03-23T13:04:11.125Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "anku.d@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2026-03-23T13:04:18.939Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "rathan.deo@gmail.com",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2026-03-25T12:15:24.586Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "18",
+            "object_repr": "abc@gmail.com",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2026-03-25T12:18:51.784Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "18",
+            "object_repr": "abc@gmail.com",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2026-04-20T12:09:09.723Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "39",
+            "object_repr": "Cartitem object (39)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2026-04-20T12:09:09.723Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "38",
+            "object_repr": "Cartitem object (38)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2026-04-20T12:09:09.723Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "37",
+            "object_repr": "Cartitem object (37)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2026-04-20T12:09:09.723Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "36",
+            "object_repr": "Cartitem object (36)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.346Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "45",
+            "object_repr": "Cartitem object (45)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "44",
+            "object_repr": "Cartitem object (44)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "43",
+            "object_repr": "Cartitem object (43)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "42",
+            "object_repr": "Cartitem object (42)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "41",
+            "object_repr": "Cartitem object (41)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2026-04-21T11:36:46.347Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "40",
+            "object_repr": "Cartitem object (40)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "o4zfs43rpq2ytq75587p03ulwgsjziea",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "3mnbiauv0oazz6mj4g5rt2cqmiux9eum",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "q35oewn8ryzbpjuhljhrvtpm43vu36gx",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "d4cdpx6gjs7vpkj8vvjet2ebxquhh3fs",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "wfpf60x8czdk1ulrouoqz2ow5dzhdgxd",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "y1w0wj2ke00j7kkrxae3rbfjjugilx0m",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "3vj1280pdoqixhcdt7uynfk8kcjju117",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "7jonamyzguxr2h2r4vi7iahfm4jni4qo",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "14dp7fmm6k6d666lx4o0lt2mp1eb2w1r",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2026-04-21T11:37:44.907Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "u4lry13rr6gw3a3bmnnl11kkwtrkvvfn",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2026-04-21T12:04:31.491Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "f2byt0soc6qw5zgxpqixc6c5ghgko6xk",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2026-04-21T12:04:31.491Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "8iccwi0hx2zdtbjm5ycw9ev7di5gmzlc",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2026-04-21T12:04:31.491Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "qhju1d2h6is3cup82kfmyp56tve9cojd",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2026-04-21T12:06:42.088Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "47",
+            "object_repr": "Cartitem object (47)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2026-04-21T12:06:42.088Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "46",
+            "object_repr": "Cartitem object (46)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2026-05-29T09:50:13.385Z",
+            "user": 1,
+            "content_type": 15,
+            "object_id": "2",
+            "object_repr": "Beautiful product",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2026-06-01T13:13:22.950Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "palak",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2026-06-01T13:15:15.259Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "radha",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2026-06-01T13:17:32.417Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "palak",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2026-06-02T10:19:04.664Z",
+            "user": 1,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "radha",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2026-06-15T12:54:50.582Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2026-06-15T12:56:11.906Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2026-06-15T12:58:16.457Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2026-06-15T13:02:24.319Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2026-06-15T13:07:04.721Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "7",
+            "object_repr": "white",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2026-06-15T13:07:19.236Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "8",
+            "object_repr": "Blue",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2026-06-15T13:07:37.254Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "9",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2026-06-15T13:07:51.559Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "10",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2026-06-15T13:08:03.942Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "11",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2026-06-15T13:08:13.204Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "12",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2026-06-15T13:10:49.205Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "13",
+            "object_repr": "white",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2026-06-15T13:10:59.409Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "14",
+            "object_repr": "Blue",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2026-06-15T13:11:11.158Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "15",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2026-06-15T13:11:20.415Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "16",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2026-06-15T13:11:30.253Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "17",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2026-06-15T13:11:41.997Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "18",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2026-06-16T12:28:17.236Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2026-06-16T12:28:34.375Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2026-06-16T12:29:16.934Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2026-06-16T12:40:19.007Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 85,
+        "fields": {
+            "action_time": "2026-06-16T12:42:43.390Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 86,
+        "fields": {
+            "action_time": "2026-06-17T11:45:55.164Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Blue-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 87,
+        "fields": {
+            "action_time": "2026-06-17T11:46:31.363Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Blue-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 88,
+        "fields": {
+            "action_time": "2026-06-17T11:47:23.420Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Blue-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 89,
+        "fields": {
+            "action_time": "2026-06-17T12:06:32.943Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "jordan-true-flight-basketball-shoes",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 90,
+        "fields": {
+            "action_time": "2026-06-17T12:06:44.998Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "jordan-true-flight-basketball-shoes",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 91,
+        "fields": {
+            "action_time": "2026-06-17T12:07:28.287Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "jordan-true-flight-basketball-shoes",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 92,
+        "fields": {
+            "action_time": "2026-06-17T12:11:21.866Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Great-Tshirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 93,
+        "fields": {
+            "action_time": "2026-06-17T12:13:09.100Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Great-Tshirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2026-06-17T12:13:48.197Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Great-Tshirt",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2026-06-18T09:37:06.149Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "US-Polo-Assn-Jacket",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"US-Polo-Assn-Jacket\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2026-06-18T09:40:28.257Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "US-Polo-Assn-Jacket",
+            "action_flag": 2,
+            "change_message": "[{\"added\": {\"name\": \"productgallery\", \"object\": \"US-Polo-Assn-Jacket\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2026-06-18T09:41:22.507Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "US-Polo-Assn-Jacket",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2026-06-18T10:12:52.627Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Wrist-Watch",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2026-06-19T11:52:39.625Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\", \"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2026-06-19T11:53:36.116Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "ATX-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"name\": \"productgallery\", \"object\": \"ATX-Jeans\", \"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2026-06-19T11:54:29.605Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "Wrangler-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2026-06-19T11:55:11.282Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "US-Polo-Assn-Jacket",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"added\": {\"name\": \"productgallery\", \"object\": \"US-Polo-Assn-Jacket\"}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2026-06-19T11:55:56.850Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Puma-Ferrari-Shoes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2026-06-19T11:56:50.863Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "jordan-true-flight-basketball-shoes",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"jordan-true-flight-basketball-shoes\", \"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2026-06-19T11:58:27.684Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Mavi-Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2026-06-19T11:59:14.632Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Great-Tshirt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Great-Tshirt\", \"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2026-06-19T12:00:35.628Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Blue-Shirt",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\", \"fields\": [\"Image\"]}}, {\"changed\": {\"name\": \"productgallery\", \"object\": \"Blue-Shirt\", \"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2026-06-19T12:02:09.338Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "19",
+            "object_repr": "Blue",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2026-06-19T12:02:22.847Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "20",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2026-06-19T12:02:33.016Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "21",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2026-06-19T12:02:40.530Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "22",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2026-06-19T12:02:48.072Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "23",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2026-06-19T12:03:16.783Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "24",
+            "object_repr": "Blue",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2026-06-19T12:03:27.283Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "25",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2026-06-19T12:03:33.473Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "26",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2026-06-19T12:03:41.376Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "27",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2026-06-19T12:04:27.120Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "28",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2026-06-19T12:04:36.200Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "29",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2026-06-19T12:04:43.305Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "30",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2026-06-19T12:04:49.382Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "31",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2026-06-19T12:04:59.438Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "32",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2026-06-19T12:05:06.671Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "33",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2026-06-19T12:05:15.879Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "34",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2026-06-19T12:05:37.563Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "35",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2026-06-19T12:05:56.760Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "36",
+            "object_repr": "Brown",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2026-06-19T12:06:06.487Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "37",
+            "object_repr": "Black",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2026-06-19T12:06:16.058Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "38",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2026-06-19T12:06:22.623Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "39",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2026-06-19T12:06:30.972Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "40",
+            "object_repr": "large",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2026-06-19T12:06:58.695Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "41",
+            "object_repr": "Blue",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2026-06-19T12:07:06.397Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "42",
+            "object_repr": "small",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2026-06-19T12:07:22.224Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "43",
+            "object_repr": "medium",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1h98k5tnrc97hm6jv2skkg4190kevizb",
+        "fields": {
+            "session_data": "e30:1wN75G:YUDkjPb1IvDk0ZNfm5y41EhU129tdwmnnUtDWrLa8eo",
+            "expire_date": "2026-05-27T10:44:58.662Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "37ca7ea5k81mo71i7kpbs83gvaq2i3gx",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wZ6dm:q7J-fXTu8b2ZEcjhNoBfevjWuu-r7RNrDaOlINkF5uk",
+            "expire_date": "2026-06-29T12:42:10.452Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "552bs4dodqxehxngseokey28sliiw7jx",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wN7kH:7LYIgm4heCwo6RcnjwS-xBDLt2-jJzJdcpESwKq1lJk",
+            "expire_date": "2026-05-27T11:27:21.171Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "7y919dm4gd72h54ybloauxnrynqtnysm",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wKX9b:mxFlkpVKB8J1RWqfgJ9ezGS5-Ut8uU3llvgF8OXNW1Q",
+            "expire_date": "2026-05-20T07:58:47.284Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "aydqfa3hdi0h5ef8cezkmv21jwg3zx3f",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAURP-FtSHSaXm4dO83EODeStVAUtqV8d9tky50NcmcM_MWPqxL9mvj2U8kLqKz4vRbxpCeXHZCj1DuVaZalnmKclfkQZu8VeLX9XD_DnJoeVsHNqySRoQGg8gRHLSCMluYsTdDojCMZLXjCNshEg9nB8Bq41QvPl8HMzdq:1wMiVQ:uVcUKupm5JSjMcJ1UUgriX1xOb8-WQ_dEWqdD2V5XGE",
+            "expire_date": "2026-05-26T08:30:20.960Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "iccqy7xdsemwcvfp2r402k2brpaausn6",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wbwPr:VpaxyEjt3-DmVNl7idpug2Jl6SoL1fCCVLlv-ZCH5Iw",
+            "expire_date": "2026-07-07T08:23:31.313Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "l87ad0clzwzrlt7d1aq36tv2eseaox1c",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wFsLi:KuBIyV0Rexce2uF4rG5mMwlvaz3j6k2xsO-3F0o_YkM",
+            "expire_date": "2026-05-07T11:36:02.778Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "u4lry13rr6gw3a3bmnnl11kkwtrkvvfn",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1vzTyb:DDoSmr4ETqSlIkyIs8RP276t15EmfsOVBa4UXbi_H_o",
+            "expire_date": "2026-03-23T06:20:25.472Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "xq26h3oy9o3wfejsc7an5qg8iepliynk",
+        "fields": {
+            "session_data": "e30:1wOA91:AFXleGHaJG_qU1VmRe2yiBWvfRhgyZya4Ap35dven9A",
+            "expire_date": "2026-05-30T08:13:11.084Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "z3414e34bqojogqsm40n5r46bv2bc6a9",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pAphQIu3XsGwjCDVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnEWgzj9bhjTg-sO6B7rrcnU6rrMKHdFHrTLayN-Xg7376DEXr41eByRHdtImskmdN4j5gm1x5wdKM-TAjDGWpVNcqQdu5yjTiMMQEa8PwieOHk:1wNTOM:MtT6PmoWKbBu7G6AfJy6Me9tdGLcA9IFgKSpH1x_TnE",
+            "expire_date": "2026-05-28T10:34:10.043Z"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "jeans",
+            "slug": "jeans",
+            "description": "Crafted from durable, high-quality denim, these jeans combine comfort with timeless style. Featuring a flattering fit, versatile wash, and reinforced stitching, theyÆre perfect for everyday wear or casual outings.",
+            "cat_img": "photos/category/jeans.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "shirts",
+            "slug": "shirts",
+            "description": "Made from soft, breathable fabric, this shirt offers all-day comfort with a polished look. Its tailored fit, neat stitching, and stylish design make it perfect for both casual outings and semi-formal occasions",
+            "cat_img": "photos/category/shirts.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "shoes",
+            "slug": "shoes",
+            "description": "Step into comfort and style with these versatile shoes, designed for all-day wear. Made with high-quality materials, they offer durability, support, and a perfect fit. Whether for casual outings, work, or a night out, their sleek design pairs effortlessly",
+            "cat_img": "photos/category/shoes.png"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 4,
+        "fields": {
+            "category_name": "jackets",
+            "slug": "jackets",
+            "description": "Stay warm and stylish with this premium jacket, crafted from high-quality materials for durability and comfort. Its sleek design, functional pockets, and tailored fit make it perfect for outdoor adventures or everyday wear.",
+            "cat_img": "photos/category/jackets.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 5,
+        "fields": {
+            "category_name": "tshirts",
+            "slug": "tshirts",
+            "description": "Made from soft, breathable fabric, this T-shirt offers all-day comfort and a relaxed fit. Perfect for layering or wearing on its own, it combines casual style with effortless versatility.",
+            "cat_img": "photos/category/tshirts.jpg"
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$FYe21z46J8q2b7vDvaGSi4$3sdYrnDFLZaEZ2PA7ckEBhHCGmbSKX7NPQ5VrUp0AJk=",
+            "first_name": "sanjana",
+            "last_name": "ramgarhia",
+            "username": "sanjana",
+            "email": "developer.sanjana@gmail.com",
+            "phone_number": "",
+            "date_joined": "2026-03-09T06:19:36.314Z",
+            "last_login": "2026-06-23T08:23:31.306Z",
+            "is_admin": true,
+            "is_staff": true,
+            "is_active": true,
+            "is_superadmin": true
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$z0WiX09NBoUZip2QJEN6eD$vGRbA9vOank21ECqO0YfEP/Jt2/AIlqSX0PGV1nI0+E=",
+            "first_name": "john",
+            "last_name": "doe",
+            "username": "john.doe",
+            "email": "john.doe@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-23T12:40:03.660Z",
+            "last_login": "2026-03-23T12:40:03.660Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$V7uNGegpIn6FRPmnw3RHyu$bZE9yULu3uafLGOJeGn0bHRRXlQbJbhkkG5J1Una0eA=",
+            "first_name": "john",
+            "last_name": "deo",
+            "username": "john.deo",
+            "email": "john.deo@gmail.com",
+            "phone_number": "22344555",
+            "date_joined": "2026-03-23T12:48:17.895Z",
+            "last_login": "2026-03-23T12:48:17.897Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$zPU6aq1Ql3uL98PxxrtiMw$8E9qiCKTRZmxdkeUWuo0n18Jij9qxzsp8HQYLwxcLI4=",
+            "first_name": "abc",
+            "last_name": "d",
+            "username": "abc.d",
+            "email": "abc.d@gmail.com",
+            "phone_number": "9812341234",
+            "date_joined": "2026-03-23T13:05:16.388Z",
+            "last_login": "2026-03-23T13:05:16.388Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$b6wAL9NQeDzmt80sBNcZyt$nDd39IESRJdwQ3IHPQGk4DhY97fpKkXeoddcKGZnnwI=",
+            "first_name": "aa",
+            "last_name": "b",
+            "username": "aa.b",
+            "email": "aa.b@gmail.com",
+            "phone_number": "9876332467",
+            "date_joined": "2026-03-24T11:35:52.450Z",
+            "last_login": "2026-03-24T11:35:52.451Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 8,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$mrUa4huebiYBHOA5CXX9Ry$XP46wDUAZUCNoFDGq5d9xC3Utul2sQF9Yrjw/xN3fL0=",
+            "first_name": "ankita",
+            "last_name": "dhiman",
+            "username": "ankita_dhiman",
+            "email": "ankita_dhiman@gmail.com",
+            "phone_number": "9876787687",
+            "date_joined": "2026-03-24T12:49:56.741Z",
+            "last_login": "2026-03-24T12:49:56.741Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 9,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$oN2QTDkhcUn995WhN7fbCM$gIJio/2IhAT1hMzigWqxibiAa5j+o4n2nh+pRT5YMRY=",
+            "first_name": "ankita",
+            "last_name": "dhiman",
+            "username": "ankita",
+            "email": "ankita@gmail.com",
+            "phone_number": "7898787878",
+            "date_joined": "2026-03-24T12:54:17.980Z",
+            "last_login": "2026-03-24T12:54:17.980Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 10,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$XCiVS6vcfDlM3ka4fZcknF$uRKZl0q3vCKnQRBgF3upTQSzQkLqFVUA5jjNS5xJpAM=",
+            "first_name": "a",
+            "last_name": "b",
+            "username": "ab",
+            "email": "ab@gmail.com",
+            "phone_number": "89898970768",
+            "date_joined": "2026-03-24T12:59:39.057Z",
+            "last_login": "2026-03-24T12:59:39.057Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 11,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$xye0tG6JemKS7Wt9g2vguJ$/EF/5xo5Hn85A3S6O0z1fAkeleruPDyIwIU3N1vGPdg=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palaksharma75238",
+            "email": "palaksharma75238@gmail.com",
+            "phone_number": "9898989898",
+            "date_joined": "2026-03-24T13:03:16.952Z",
+            "last_login": "2026-03-24T13:03:16.952Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 12,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$WzzjLy5Bxuegmv27SI6aR5$gDq6B2z1w8XVajQWgwWvDHPSJcBbXRhhXcF2GJ3/oKI=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palak_sharma",
+            "email": "palak_sharma@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-25T09:49:27.852Z",
+            "last_login": "2026-03-25T09:49:27.852Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 13,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$o1YfD2hsF15cSENwIDL8RP$L/NLp7EV/7AO/j5l/dkKNeGZWoCreP8D3jlmTvN5qs0=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palak_567",
+            "email": "palak_567@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-25T09:52:04.816Z",
+            "last_login": "2026-03-25T09:52:04.816Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 14,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$fKEXDVtEnoXb66pBRmKJdJ$T0w6bLEBZdHrXDxGRLucQvX/hd4js6s2Z2k1A/XEkxg=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palak_56",
+            "email": "palak_56@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-25T10:02:15.589Z",
+            "last_login": "2026-03-25T10:02:15.589Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 15,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$pr6qDtEsMgafuxEhtwa2y2$BsV0KiwDdVMC+CmeSMDjlO2+LObdzX/D7PA4ndmH6js=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palak_561",
+            "email": "palak_561@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-25T10:03:26.125Z",
+            "last_login": "2026-03-25T10:03:26.125Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 16,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$CQPKLHRhOTU5Dp8aBWqSwr$xREQ8KAq3fIR4kAG4vcteLFZShXt8X0aZhtFH+Ypsbs=",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "username": "palak_5617",
+            "email": "palak_5617@gmail.com",
+            "phone_number": "9875683467",
+            "date_joined": "2026-03-25T10:06:08.503Z",
+            "last_login": "2026-03-25T10:06:08.503Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 17,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$Nib2V3ypaONrilgPmNY2ks$SFuU6bMXAhNTqj3jKNM0ujBDZ8OadWLV3PhxQU/d24o=",
+            "first_name": "oggy",
+            "last_name": "a",
+            "username": "oggy",
+            "email": "oggy@gmail.com",
+            "phone_number": "7898789078",
+            "date_joined": "2026-03-25T12:09:34.947Z",
+            "last_login": "2026-03-25T12:09:34.947Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 18,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$nOPXNAqQ7qFpxMg6UxXeTa$15d7rXU3lldlG1QQah41LuS48fIBDNr7jZ7SvN8I/sk=",
+            "first_name": "abc",
+            "last_name": "q",
+            "username": "abc",
+            "email": "abc@gmail.com",
+            "phone_number": "8987456120",
+            "date_joined": "2026-03-25T12:14:13.461Z",
+            "last_login": "2026-03-25T12:16:19.161Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 19,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$01LE3JvuLXaN6MyIkpimAH$PixCFX/p6orE0HtWkav9O33eKAfpf6A9IZ13eNyfrIE=",
+            "first_name": "ishu",
+            "last_name": "a",
+            "username": "ishu",
+            "email": "ishu@gmail.com",
+            "phone_number": "98907897689",
+            "date_joined": "2026-03-25T12:19:31.605Z",
+            "last_login": "2026-03-25T12:19:31.605Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 20,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$h8XQCmgH4RqhCMVlz2rsDU$EiS6bNR+g8Bd+bT2aHn/i/Kiwazz0TMxt++Jm3MlQkw=",
+            "first_name": "1",
+            "last_name": "2",
+            "username": "12",
+            "email": "12@gmail.com",
+            "phone_number": "3490898989",
+            "date_joined": "2026-03-25T12:25:43.729Z",
+            "last_login": "2026-03-25T12:25:43.729Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 21,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$yAp5QySseyj89ZryUD3lf8$r9rnEKVPhxWUC1ZQ2CSy8F5fhz5YPdDHJIbDovj2K6U=",
+            "first_name": "payal",
+            "last_name": "q",
+            "username": "payal",
+            "email": "payal@gmail.com",
+            "phone_number": "9806798067",
+            "date_joined": "2026-03-25T12:36:08.934Z",
+            "last_login": "2026-03-25T12:36:08.934Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 22,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$joJZvQrjNDtGVLQ9XX8EAd$YDBTFP2Fp7T8JcIQwVJYN5CAwqRymP1+Bel1GyS3oAQ=",
+            "first_name": "sania",
+            "last_name": "a",
+            "username": "sania",
+            "email": "sania@gmail.com",
+            "phone_number": "9089786789",
+            "date_joined": "2026-03-25T12:41:24.778Z",
+            "last_login": "2026-03-25T12:41:24.778Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 23,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$9Rn6Vk1j2awT5G4kDFuKSM$WZIfeOyz9NwUNcY00GyMz5UeQfRhzYbWyMPgKZzX/Z8=",
+            "first_name": "1",
+            "last_name": "12",
+            "username": "112",
+            "email": "112@gmail.com",
+            "phone_number": "9090909897",
+            "date_joined": "2026-03-25T12:46:39.322Z",
+            "last_login": "2026-03-25T12:46:39.322Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 24,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$ZUcnD9Lfuriu9znbgPmAGV$TM+sPVatet/DXawnl1t2bAZNRcmFMkrdodyNKf+v0F4=",
+            "first_name": "vicky",
+            "last_name": "a",
+            "username": "vicky",
+            "email": "vicky@gmail.com",
+            "phone_number": "9087867867",
+            "date_joined": "2026-03-25T12:51:46.398Z",
+            "last_login": "2026-03-25T12:51:46.398Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 25,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$JEb1ffJrmAshMyG08NvhWc$bqhmq26s7DqP3t1leOznbvzYiGHROgw4Kdl8ZjcPar8=",
+            "first_name": "ankita",
+            "last_name": "a",
+            "username": "an",
+            "email": "an@gmail.com",
+            "phone_number": "9089978908",
+            "date_joined": "2026-03-25T12:53:27.245Z",
+            "last_login": "2026-03-25T12:53:27.245Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 26,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$pN1iMvbOHwGoDjSJbdIqT8$h8xGDiAmpBV2GE5v8gd4Z8arXhQkeqmmiRuwY+pxI2Q=",
+            "first_name": "alpha",
+            "last_name": "a",
+            "username": "alpha",
+            "email": "alpha@gmail.com",
+            "phone_number": "8998076876",
+            "date_joined": "2026-04-01T11:41:21.689Z",
+            "last_login": "2026-04-01T11:51:02.100Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 27,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$H7YfQmOAhhjHXMiHLHtb4M$iV/lijHcJLRtzEdeqrcQmFvkB9JVJSPU3j26cM4VcOE=",
+            "first_name": "sia",
+            "last_name": "a",
+            "username": "sia",
+            "email": "sia@gmail.com",
+            "phone_number": "9898678979",
+            "date_joined": "2026-04-02T10:51:10.210Z",
+            "last_login": "2026-04-02T11:37:12.427Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 28,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$FuTDqi9kd1xr19n7zxgYHX$MgOrf5CKOsB4DCpHpvWrtFE66UlW97hrbQ0mYIycCnc=",
+            "first_name": "radha",
+            "last_name": "sharma",
+            "username": "radha",
+            "email": "radha@gmail.com",
+            "phone_number": "9086896756",
+            "date_joined": "2026-04-16T12:29:19.160Z",
+            "last_login": "2026-06-10T12:58:10.800Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 29,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$2ydnIAy1ZgrN46KG6R3xpu$on9GlypGOqbJe9ZOoZQkl5l9+P5xPVzDfSr4KoqXRRA=",
+            "first_name": "Katrina",
+            "last_name": "Kaif",
+            "username": "Katrina",
+            "email": "Katrina@gmail.com",
+            "phone_number": "9086896756",
+            "date_joined": "2026-06-09T12:09:24.541Z",
+            "last_login": "2026-06-09T12:09:24.541Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": false,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 30,
+        "fields": {
+            "password": "pbkdf2_sha256$1200000$7MxWmLck4aO2EmQjshKUO6$d9mxZkHWSk7dicfuksJl7HdqucXACKpAuHOyXAGnebA=",
+            "first_name": "Smiley",
+            "last_name": "sharma",
+            "username": "Smiley",
+            "email": "Smiley@gmail.com",
+            "phone_number": "90868967786",
+            "date_joined": "2026-06-09T12:14:35.377Z",
+            "last_login": "2026-06-09T12:50:25.288Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 2,
+        "fields": {
+            "user": 28,
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "profile_picture": "userprofile/profile_M5_v8NcjVX.jpg",
+            "city": "Mohali",
+            "state": "Punjab",
+            "country": "India"
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 3,
+        "fields": {
+            "user": 29,
+            "address_line_1": "",
+            "address_line_2": "",
+            "profile_picture": "default/default-user.png",
+            "city": "",
+            "state": "",
+            "country": ""
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 4,
+        "fields": {
+            "user": 30,
+            "address_line_1": "Palampur",
+            "address_line_2": "",
+            "profile_picture": "default/default-user.png",
+            "city": "",
+            "state": "",
+            "country": ""
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "product_name": "Blue-Shirt",
+            "slug": "blue-shirt",
+            "product_description": "Blue Shirt û Soft, breathable fabric with a comfortable, stylish fit.\r\nPerfect for casual or semi-formal looks, easily paired with jeans or trousers.",
+            "price": 699,
+            "images": "media/photos/products/Blue-Shirt_oz3rpn",
+            "stock": 200,
+            "is_available": true,
+            "category": 2,
+            "created_date": "2026-03-09T09:11:00.184Z",
+            "modified_date": "2026-06-19T12:00:32.088Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 3,
+        "fields": {
+            "product_name": "Great-Tshirt",
+            "slug": "great-tshirt",
+            "product_description": "The Great T-Shirt is made from soft, breathable fabric for all-day comfort.\r\nIts versatile design pairs perfectly with jeans, shorts, or skirts for a stylish casual look.",
+            "price": 500,
+            "images": "media/photos/products/Great-Tshirt_nlnlpn",
+            "stock": 300,
+            "is_available": true,
+            "category": 5,
+            "created_date": "2026-03-09T09:17:03.149Z",
+            "modified_date": "2026-06-19T11:59:12.057Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 4,
+        "fields": {
+            "product_name": "Mavi-Jeans",
+            "slug": "mavi-jeans",
+            "product_description": "The Mavi Jeans are crafted from durable, high-quality denim for a comfortable, perfect fit.\r\nTheir versatile style makes them ideal for casual outings, pairing effortlessly with shirts, T-shirts, or jackets.",
+            "price": 900,
+            "images": "media/photos/products/Mavi_jeans_vsadi6",
+            "stock": 400,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2026-03-09T09:18:21.712Z",
+            "modified_date": "2026-06-19T11:58:27.672Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 5,
+        "fields": {
+            "product_name": "jordan-true-flight-basketball-shoes",
+            "slug": "jordan-true-flight-basketball-shoes",
+            "product_description": "The Jordan True Flight Basketball Shoes deliver lightweight support and all-day comfort for on-court performance.\r\nWith a sleek, dynamic design, they offer style and durability that pairs perfectly with casual or athletic outfits.",
+            "price": 1999,
+            "images": "media/photos/products/jordan-true-flight-basketball-shoes_gkzo3j",
+            "stock": 200,
+            "is_available": true,
+            "category": 3,
+            "created_date": "2026-03-09T09:20:59.524Z",
+            "modified_date": "2026-06-19T11:56:48.150Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 6,
+        "fields": {
+            "product_name": "Puma-Ferrari-Shoes",
+            "slug": "puma-ferrari-shoes",
+            "product_description": "The Puma Ferrari Shoes combine sleek style with lightweight comfort for everyday wear.\r\nDesigned for performance and flair, they pair perfectly with casual or sporty outfits.",
+            "price": 1500,
+            "images": "media/photos/products/Puma-Ferrari-Shoes_rnvedj",
+            "stock": 300,
+            "is_available": true,
+            "category": 3,
+            "created_date": "2026-03-09T09:22:08.028Z",
+            "modified_date": "2026-06-19T11:55:56.841Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 7,
+        "fields": {
+            "product_name": "US-Polo-Assn-Jacket",
+            "slug": "us-polo-assn-jacket",
+            "product_description": "The US Polo Assn. Jacket offers warmth, comfort, and a stylish fit for everyday wear.\r\nIts versatile design pairs effortlessly with casual or semi-formal outfits, making it a wardrobe essential.",
+            "price": 2999,
+            "images": "media/photos/products/US-Polo-Assn_Jacket_rrmwhp",
+            "stock": 100,
+            "is_available": true,
+            "category": 4,
+            "created_date": "2026-03-09T09:23:28.736Z",
+            "modified_date": "2026-06-19T11:55:10.358Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 8,
+        "fields": {
+            "product_name": "Wrangler-Shirt",
+            "slug": "wrangler-shirt",
+            "product_description": "The Wrangler Shirt is made from soft, breathable fabric for all-day comfort and a perfect fit.\r\nIts classic design pairs effortlessly with jeans or trousers, ideal for casual or semi-formal occasions.",
+            "price": 600,
+            "images": "media/photos/products/Wrangler-Shirt_uugil8",
+            "stock": 0,
+            "is_available": true,
+            "category": 2,
+            "created_date": "2026-03-09T09:24:24.690Z",
+            "modified_date": "2026-06-19T11:54:29.588Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 9,
+        "fields": {
+            "product_name": "ATX-Jeans",
+            "slug": "atx-jeans",
+            "product_description": "Upgrade your everyday wardrobe with ATX Jeans, designed for comfort, durability, and effortless style. Crafted from high-quality denim, these jeans offer a perfect balance of flexibility and structure, ensuring a comfortable fit throughout the day. The classic design makes them easy to pair with t-shirts, shirts, or jackets for both casual and semi-casual occasions.",
+            "price": 800,
+            "images": "media/photos/products/ATX-Jeans_qo5lor",
+            "stock": 99,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2026-06-15T13:02:24.316Z",
+            "modified_date": "2026-06-19T11:53:35.202Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 10,
+        "fields": {
+            "product_name": "Wrist-Watch",
+            "slug": "wrist-watch",
+            "product_description": "Elevate your style with the GreatKart Luxury Chronograph Watch, a perfect blend of sophistication and functionality. Designed with a sleek black dial, rose-gold accents, and a premium leather strap, this timepiece delivers a modern yet timeless look suitable for any occasion.",
+            "price": 3999,
+            "images": "media/photos/products/ChatGPT_Image_Jun_18_2026_03_30_09_PM_gofp0o",
+            "stock": 50,
+            "is_available": true,
+            "category": 2,
+            "created_date": "2026-06-18T10:12:52.615Z",
+            "modified_date": "2026-06-18T10:12:52.615Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 7,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "white",
+            "is_active": true,
+            "created_date": "2026-06-15T13:07:04.717Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 8,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_date": "2026-06-15T13:07:19.235Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 9,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-15T13:07:37.252Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 10,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-15T13:07:51.557Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 11,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-15T13:08:03.939Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 12,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-15T13:08:13.202Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 13,
+        "fields": {
+            "product": 9,
+            "variation_category": "color",
+            "variation_value": "white",
+            "is_active": true,
+            "created_date": "2026-06-15T13:10:49.200Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 14,
+        "fields": {
+            "product": 9,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_date": "2026-06-15T13:10:59.407Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 15,
+        "fields": {
+            "product": 9,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-15T13:11:11.156Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 16,
+        "fields": {
+            "product": 9,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-15T13:11:20.413Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 17,
+        "fields": {
+            "product": 9,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-15T13:11:30.252Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 18,
+        "fields": {
+            "product": 9,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-15T13:11:41.995Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 19,
+        "fields": {
+            "product": 3,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_date": "2026-06-19T12:02:09.330Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 20,
+        "fields": {
+            "product": 3,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-19T12:02:22.847Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 21,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:02:33.007Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 22,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:02:40.527Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 23,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-19T12:02:48.070Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 24,
+        "fields": {
+            "product": 4,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_date": "2026-06-19T12:03:16.783Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 25,
+        "fields": {
+            "product": 4,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:03:27.280Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 26,
+        "fields": {
+            "product": 4,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:03:33.473Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 27,
+        "fields": {
+            "product": 4,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-19T12:03:41.375Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 28,
+        "fields": {
+            "product": 5,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-19T12:04:27.119Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 29,
+        "fields": {
+            "product": 5,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:04:36.194Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 30,
+        "fields": {
+            "product": 5,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:04:43.305Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 31,
+        "fields": {
+            "product": 5,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-19T12:04:49.382Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 32,
+        "fields": {
+            "product": 6,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-19T12:04:59.438Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 33,
+        "fields": {
+            "product": 6,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:05:06.667Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 34,
+        "fields": {
+            "product": 6,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-19T12:05:15.875Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 35,
+        "fields": {
+            "product": 6,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:05:37.558Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 36,
+        "fields": {
+            "product": 7,
+            "variation_category": "color",
+            "variation_value": "Brown",
+            "is_active": true,
+            "created_date": "2026-06-19T12:05:56.760Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 37,
+        "fields": {
+            "product": 7,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_date": "2026-06-19T12:06:06.484Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 38,
+        "fields": {
+            "product": 7,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:06:16.052Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 39,
+        "fields": {
+            "product": 7,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:06:22.623Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 40,
+        "fields": {
+            "product": 7,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_date": "2026-06-19T12:06:30.972Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 41,
+        "fields": {
+            "product": 8,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_date": "2026-06-19T12:06:58.687Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 42,
+        "fields": {
+            "product": 8,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_date": "2026-06-19T12:07:06.397Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 43,
+        "fields": {
+            "product": 8,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_date": "2026-06-19T12:07:22.217Z"
+        }
+    },
+    {
+        "model": "store.reviewrating",
+        "pk": 3,
+        "fields": {
+            "product": 9,
+            "user": 1,
+            "subject": "Best Jeans",
+            "review": "I recently ordered a pair of ATX Jeans and was pleasantly surprised by the fit. Buying jeans online can be hit or miss, but these fit comfortably right out of the package. The material feels durable without being too stiff, and they've been comfortable enough to wear all day. Shipping was quick, and the jeans looked exactly like the photos. I'll definitely consider ordering another pair in a different color.",
+            "rating": 4.5,
+            "ip": "127.0.0.1",
+            "status": true,
+            "created_at": "2026-06-16T12:07:22.747Z",
+            "updated_at": "2026-06-16T12:07:22.747Z"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 3,
+        "fields": {
+            "product": 9,
+            "image": "media/store/products/ChatGPT_Image_Jun_16_2026_05_57_03_PM_fch3ub"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 4,
+        "fields": {
+            "product": 9,
+            "image": "media/store/products/ChatGPT_Image_Jun_16_2026_05_58_46_PM_wqcppz"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 5,
+        "fields": {
+            "product": 9,
+            "image": "media/store/products/ChatGPT_Image_Jun_16_2026_06_10_05_PM_zcpxk2"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 6,
+        "fields": {
+            "product": 2,
+            "image": "media/store/products/Gemini_Generated_Image_p3dqa8p3dqa8p3dq_tnhnhx"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 7,
+        "fields": {
+            "product": 2,
+            "image": "media/store/products/Gemini_Generated_Image_jfhdbqjfhdbqjfhd_pqci8k"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 8,
+        "fields": {
+            "product": 2,
+            "image": "media/store/products/Gemini_Generated_Image_iiujniiiujniiiuj_xelutq"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 9,
+        "fields": {
+            "product": 5,
+            "image": "media/store/products/Gemini_Generated_Image_m9hrr1m9hrr1m9hr_nticyf"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 10,
+        "fields": {
+            "product": 5,
+            "image": "media/store/products/Gemini_Generated_Image_6vwg9e6vwg9e6vwg_acm2vx"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 11,
+        "fields": {
+            "product": 5,
+            "image": "media/store/products/Gemini_Generated_Image_3vkmak3vkmak3vkm_izluir"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 12,
+        "fields": {
+            "product": 3,
+            "image": "media/store/products/Gemini_Generated_Image_xun7x7xun7x7xun7_ecw9e1"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 13,
+        "fields": {
+            "product": 3,
+            "image": "media/store/products/Gemini_Generated_Image_r6u1cxr6u1cxr6u1_mvdycu"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 14,
+        "fields": {
+            "product": 3,
+            "image": "media/store/products/Gemini_Generated_Image_64s94864s94864s9_arnjfz"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 15,
+        "fields": {
+            "product": 7,
+            "image": "media/store/products/Gemini_Generated_Image_1y87331y87331y87_lzqex1"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 16,
+        "fields": {
+            "product": 7,
+            "image": "media/store/products/Gemini_Generated_Image_uxxgcduxxgcduxxg_xp2xek"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 17,
+        "fields": {
+            "product": 7,
+            "image": "media/store/products/Gemini_Generated_Image_uchlkauchlkauchl_h5dn1a"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 14,
+        "fields": {
+            "cart_id": "477g7qvacs9g6u78n5dbn7nbd530tuxv",
+            "date_added": "2026-04-21"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 15,
+        "fields": {
+            "cart_id": "3i58io410pxk8xk783jdu1to1uoc0o1r",
+            "date_added": "2026-04-22"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 16,
+        "fields": {
+            "cart_id": "655qsl5pfe75ffcgvho8pz5h7s2rtwiv",
+            "date_added": "2026-04-23"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 17,
+        "fields": {
+            "cart_id": "t3uviow5ninqt5iz6e7pcvtg470jnhrf",
+            "date_added": "2026-05-21"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 18,
+        "fields": {
+            "cart_id": "xn9b0cjzz48tzbt6jnqp2aza2z2iq87i",
+            "date_added": "2026-06-01"
+        }
+    },
+    {
+        "model": "carts.cart",
+        "pk": 19,
+        "fields": {
+            "cart_id": "lv8v0tf1hjq497ry9uy1nh1qjecq0k08",
+            "date_added": "2026-06-08"
+        }
+    },
+    {
+        "model": "carts.cartitem",
+        "pk": 82,
+        "fields": {
+            "user": 1,
+            "product": 2,
+            "cart": null,
+            "quantity": 1,
+            "is_active": true,
+            "variations": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "model": "carts.cartitem",
+        "pk": 83,
+        "fields": {
+            "user": 1,
+            "product": 3,
+            "cart": null,
+            "quantity": 1,
+            "is_active": true,
+            "variations": [
+                19,
+                21
+            ]
+        }
+    },
+    {
+        "model": "carts.cartitem",
+        "pk": 84,
+        "fields": {
+            "user": 1,
+            "product": 7,
+            "cart": null,
+            "quantity": 1,
+            "is_active": true,
+            "variations": [
+                36,
+                38
+            ]
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "payment_id": "72G92975BF950390W",
+            "payment_method": "PayPal",
+            "amount_paid": "1632.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-13T11:25:02.091Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "payment_id": "5F627307EA416334N",
+            "payment_method": "PayPal",
+            "amount_paid": "1632.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-13T11:35:56.876Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "payment_id": "3G256093U4669112V",
+            "payment_method": "PayPal",
+            "amount_paid": "1632.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-13T12:03:40.629Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "payment_id": "41001388VB282961S",
+            "payment_method": "PayPal",
+            "amount_paid": "2448.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-14T10:36:15.167Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "payment_id": "79128976YK599262C",
+            "payment_method": "PayPal",
+            "amount_paid": "2448.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-14T10:39:00.045Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "payment_id": "27F185005P470660H",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-14T10:52:11.164Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "payment_id": "2TN75114B6018753G",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-14T10:55:38.530Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "payment_id": "5MN91903YV833810K",
+            "payment_method": "PayPal",
+            "amount_paid": "2448.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-14T11:40:38.592Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "payment_id": "27W522489N322553D",
+            "payment_method": "PayPal",
+            "amount_paid": "1632.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-16T08:17:00.991Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 10,
+        "fields": {
+            "user": 28,
+            "payment_id": "3VB96339ER410124Y",
+            "payment_method": "PayPal",
+            "amount_paid": "1632.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-25T10:58:56.663Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 11,
+        "fields": {
+            "user": 28,
+            "payment_id": "5G844302TR8514600",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-26T11:35:02.293Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 12,
+        "fields": {
+            "user": 28,
+            "payment_id": "5PW54636BP6347700",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-26T11:39:18.069Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 13,
+        "fields": {
+            "user": 28,
+            "payment_id": "0LV96791RT2362000",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-26T11:56:57.034Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 14,
+        "fields": {
+            "user": 28,
+            "payment_id": "2C762577KE4378126",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-26T12:13:44.296Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 15,
+        "fields": {
+            "user": 28,
+            "payment_id": "22C90200PB8253904",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-05-27T10:31:42.226Z"
+        }
+    },
+    {
+        "model": "orders.payment",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "payment_id": "6U796636442351914",
+            "payment_method": "PayPal",
+            "amount_paid": "816.0",
+            "status": "COMPLETED",
+            "created_at": "2026-06-16T12:01:23.800Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 1,
+        "fields": {
+            "user": 28,
+            "payment": null,
+            "order_number": "202605061",
+            "first_name": "radha",
+            "last_name": "a",
+            "phone": "9806785678",
+            "email": "radha@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "UP",
+            "city": "Barsana",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T07:52:11.661Z",
+            "updated_at": "2026-05-06T07:52:11.669Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 2,
+        "fields": {
+            "user": 28,
+            "payment": null,
+            "order_number": "202605062",
+            "first_name": "radha",
+            "last_name": "a",
+            "phone": "9806785678",
+            "email": "radha@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "UP",
+            "city": "Barsana",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T07:57:41.405Z",
+            "updated_at": "2026-05-06T07:57:41.414Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605063",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T08:15:46.633Z",
+            "updated_at": "2026-05-06T08:15:46.652Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605064",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "palak@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T08:43:39.093Z",
+            "updated_at": "2026-05-06T08:43:39.099Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605065",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "palak@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T08:45:40.829Z",
+            "updated_at": "2026-05-06T08:45:40.842Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605066",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "palak@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T08:47:45.086Z",
+            "updated_at": "2026-05-06T08:47:45.098Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605067",
+            "first_name": "palak",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "palak@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-06T08:48:18.556Z",
+            "updated_at": "2026-05-06T08:48:18.568Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605078",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:36:12.397Z",
+            "updated_at": "2026-05-07T06:36:12.405Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "202605079",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:48:58.266Z",
+            "updated_at": "2026-05-07T06:48:58.277Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050710",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:51:15.901Z",
+            "updated_at": "2026-05-07T06:51:15.914Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050711",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:52:46.717Z",
+            "updated_at": "2026-05-07T06:52:46.732Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050712",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:54:18.466Z",
+            "updated_at": "2026-05-07T06:54:18.479Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050713",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:54:22.923Z",
+            "updated_at": "2026-05-07T06:54:22.929Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050714",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:54:40.298Z",
+            "updated_at": "2026-05-07T06:54:40.317Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 15,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050715",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:55:08.506Z",
+            "updated_at": "2026-05-07T06:55:08.514Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050716",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:55:53.336Z",
+            "updated_at": "2026-05-07T06:55:53.352Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 17,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050717",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:56:32.330Z",
+            "updated_at": "2026-05-07T06:56:32.338Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 18,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050718",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:57:58.316Z",
+            "updated_at": "2026-05-07T06:57:58.332Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 19,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050719",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:58:08.660Z",
+            "updated_at": "2026-05-07T06:58:08.671Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 20,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050720",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:58:56.063Z",
+            "updated_at": "2026-05-07T06:58:56.063Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 21,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026050721",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana122@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-07T06:59:36.000Z",
+            "updated_at": "2026-05-07T06:59:36.019Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 22,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051222",
+            "first_name": "alia",
+            "last_name": "a",
+            "phone": "9089786786",
+            "email": "alia@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T07:29:16.031Z",
+            "updated_at": "2026-05-12T07:29:16.040Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 23,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051223",
+            "first_name": "alia",
+            "last_name": "a",
+            "phone": "9089786786",
+            "email": "alia@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T07:32:46.441Z",
+            "updated_at": "2026-05-12T07:32:46.455Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 24,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051224",
+            "first_name": "alia",
+            "last_name": "a",
+            "phone": "9089786786",
+            "email": "alia@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T07:33:21.675Z",
+            "updated_at": "2026-05-12T07:33:21.692Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 25,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051225",
+            "first_name": "alia",
+            "last_name": "a",
+            "phone": "9089786786",
+            "email": "alia@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T07:36:40.814Z",
+            "updated_at": "2026-05-12T07:36:40.830Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 26,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051226",
+            "first_name": "alia",
+            "last_name": "a",
+            "phone": "9089786786",
+            "email": "alia@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T08:05:35.660Z",
+            "updated_at": "2026-05-12T08:05:35.670Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 27,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051227",
+            "first_name": "emily",
+            "last_name": "sharma",
+            "phone": "9803412345",
+            "email": "emily@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test case",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T08:17:28.523Z",
+            "updated_at": "2026-05-12T08:17:28.532Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 28,
+        "fields": {
+            "user": 28,
+            "payment": null,
+            "order_number": "2026051228",
+            "first_name": "radha",
+            "last_name": "sharma",
+            "phone": "9807865676",
+            "email": "radha123@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T08:31:08.446Z",
+            "updated_at": "2026-05-12T08:31:08.456Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 29,
+        "fields": {
+            "user": 28,
+            "payment": null,
+            "order_number": "2026051229",
+            "first_name": "radha",
+            "last_name": "sharma",
+            "phone": "9807865676",
+            "email": "radha123@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T08:35:04.918Z",
+            "updated_at": "2026-05-12T08:35:04.929Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 30,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051230",
+            "first_name": "a",
+            "last_name": "a",
+            "phone": "9808765645",
+            "email": "alia123@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T08:39:23.478Z",
+            "updated_at": "2026-05-12T08:39:23.480Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 31,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051231",
+            "first_name": "prince",
+            "last_name": "verma",
+            "phone": "9808768979",
+            "email": "Prince@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T11:41:07.435Z",
+            "updated_at": "2026-05-12T11:41:07.441Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 32,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051232",
+            "first_name": "prince",
+            "last_name": "verma",
+            "phone": "9808768979",
+            "email": "Prince@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T11:41:55.640Z",
+            "updated_at": "2026-05-12T11:41:55.656Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 33,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051233",
+            "first_name": "prince",
+            "last_name": "verma",
+            "phone": "9808768979",
+            "email": "Prince@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T11:42:32.262Z",
+            "updated_at": "2026-05-12T11:42:32.280Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 34,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051234",
+            "first_name": "prince",
+            "last_name": "verma",
+            "phone": "9808768979",
+            "email": "Prince@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T11:53:42.323Z",
+            "updated_at": "2026-05-12T11:53:42.334Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 35,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026051235",
+            "first_name": "prince",
+            "last_name": "verma",
+            "phone": "9808768979",
+            "email": "Prince@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-05-12T12:26:33.305Z",
+            "updated_at": "2026-05-12T12:26:33.317Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 36,
+        "fields": {
+            "user": 1,
+            "payment": 1,
+            "order_number": "2026051336",
+            "first_name": "Ankita",
+            "last_name": "dhiman",
+            "phone": "8908976857",
+            "email": "ankita@gmail.com",
+            "address_line_1": "Pathankot",
+            "address_line_2": "Pathankot",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 1632.0,
+            "tax": 32.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-13T11:24:27.164Z",
+            "updated_at": "2026-05-13T11:25:02.099Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 37,
+        "fields": {
+            "user": 1,
+            "payment": 2,
+            "order_number": "2026051337",
+            "first_name": "Ankita",
+            "last_name": "dhiman",
+            "phone": "8908976857",
+            "email": "ankita@gmail.com",
+            "address_line_1": "Pathankot",
+            "address_line_2": "Pathankot",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 1632.0,
+            "tax": 32.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-13T11:35:34.000Z",
+            "updated_at": "2026-05-13T11:35:56.890Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 38,
+        "fields": {
+            "user": 1,
+            "payment": 3,
+            "order_number": "2026051338",
+            "first_name": "Ankita",
+            "last_name": "dhiman",
+            "phone": "8908976857",
+            "email": "ankita@gmail.com",
+            "address_line_1": "Pathankot",
+            "address_line_2": "Pathankot",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 1632.0,
+            "tax": 32.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-13T12:03:16.561Z",
+            "updated_at": "2026-05-13T12:03:40.632Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 39,
+        "fields": {
+            "user": 1,
+            "payment": 4,
+            "order_number": "2026051439",
+            "first_name": "sahil",
+            "last_name": "ramgarhia",
+            "phone": "90876590987",
+            "email": "sahil@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-14T10:35:54.455Z",
+            "updated_at": "2026-05-14T10:36:15.180Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 40,
+        "fields": {
+            "user": 1,
+            "payment": 5,
+            "order_number": "2026051440",
+            "first_name": "sahil",
+            "last_name": "ramgarhia",
+            "phone": "90876590987",
+            "email": "sahil@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-14T10:38:38.874Z",
+            "updated_at": "2026-05-14T10:39:00.057Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 41,
+        "fields": {
+            "user": 1,
+            "payment": 6,
+            "order_number": "2026051441",
+            "first_name": "abhi",
+            "last_name": "a",
+            "phone": "9086785678",
+            "email": "abhi@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Pathankot",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "bb",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-14T10:51:53.787Z",
+            "updated_at": "2026-05-14T10:52:11.175Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 42,
+        "fields": {
+            "user": 1,
+            "payment": 7,
+            "order_number": "2026051442",
+            "first_name": "radhaaaa",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "radha@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "UP",
+            "city": "Barsana",
+            "order_note": "aa",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-14T10:55:20.692Z",
+            "updated_at": "2026-05-14T10:55:38.547Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 43,
+        "fields": {
+            "user": 1,
+            "payment": 8,
+            "order_number": "2026051443",
+            "first_name": "palak",
+            "last_name": "verma",
+            "phone": "9806785678",
+            "email": "palak@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Barsana",
+            "order_note": "test note",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-14T11:39:56.023Z",
+            "updated_at": "2026-05-14T11:40:38.612Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 44,
+        "fields": {
+            "user": 1,
+            "payment": 9,
+            "order_number": "2026051644",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9086867576",
+            "email": "sanjana@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "ss",
+            "order_total": 1632.0,
+            "tax": 32.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-16T08:16:44.803Z",
+            "updated_at": "2026-05-16T08:17:01.006Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 45,
+        "fields": {
+            "user": 28,
+            "payment": 10,
+            "order_number": "2026052545",
+            "first_name": "alia",
+            "last_name": "sharma",
+            "phone": "9086456754",
+            "email": "alia@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "s",
+            "order_total": 1632.0,
+            "tax": 32.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-25T10:58:23.313Z",
+            "updated_at": "2026-05-25T10:58:56.674Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 46,
+        "fields": {
+            "user": 28,
+            "payment": 11,
+            "order_number": "2026052646",
+            "first_name": "alia",
+            "last_name": "verma",
+            "phone": "9803412345",
+            "email": "alia@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Pathankot",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "g",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-26T11:34:40.009Z",
+            "updated_at": "2026-05-26T11:35:02.297Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 47,
+        "fields": {
+            "user": 28,
+            "payment": 12,
+            "order_number": "2026052647",
+            "first_name": "alia",
+            "last_name": "verma",
+            "phone": "9086456754",
+            "email": "sanjana@gmail.com",
+            "address_line_1": "Barsana",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "f",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-26T11:39:02.407Z",
+            "updated_at": "2026-05-26T11:39:18.074Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 48,
+        "fields": {
+            "user": 28,
+            "payment": 13,
+            "order_number": "2026052648",
+            "first_name": "palak",
+            "last_name": "ramgarhia",
+            "phone": "9806785678",
+            "email": "palak@gmail.com",
+            "address_line_1": "Pathankot",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "j",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-26T11:56:40.550Z",
+            "updated_at": "2026-05-26T11:56:57.038Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 49,
+        "fields": {
+            "user": 28,
+            "payment": 14,
+            "order_number": "2026052649",
+            "first_name": "sanjana",
+            "last_name": "verma",
+            "phone": "9086456754",
+            "email": "sanjana@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Barsana",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "s",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-26T12:13:25.345Z",
+            "updated_at": "2026-05-26T12:13:44.302Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 50,
+        "fields": {
+            "user": 28,
+            "payment": 15,
+            "order_number": "2026052750",
+            "first_name": "sharda",
+            "last_name": "a",
+            "phone": "9086456754",
+            "email": "sharda@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "test",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-05-27T10:31:24.742Z",
+            "updated_at": "2026-05-27T10:31:42.234Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 51,
+        "fields": {
+            "user": 28,
+            "payment": null,
+            "order_number": "2026060851",
+            "first_name": "John",
+            "last_name": "Taylor",
+            "phone": "9806785678",
+            "email": "JohnT@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "tset",
+            "order_total": 2448.0,
+            "tax": 48.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-08T07:11:03.184Z",
+            "updated_at": "2026-06-08T07:11:03.193Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 52,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026061552",
+            "first_name": "Samaksh",
+            "last_name": "Rattan",
+            "phone": "8987809878",
+            "email": "Samaksh@gmail.com",
+            "address_line_1": "Hoshiarpur",
+            "address_line_2": "Hoshiarpur",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Hoshiarpur",
+            "order_note": "",
+            "order_total": 2241.96,
+            "tax": 43.96,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-15T13:14:54.876Z",
+            "updated_at": "2026-06-15T13:14:54.880Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 53,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026061553",
+            "first_name": "Samaksh",
+            "last_name": "Rattan",
+            "phone": "8987809878",
+            "email": "Samaksh@gmail.com",
+            "address_line_1": "Hoshiarpur",
+            "address_line_2": "Hoshiarpur",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Hoshiarpur",
+            "order_note": "",
+            "order_total": 2241.96,
+            "tax": 43.96,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-15T13:17:45.639Z",
+            "updated_at": "2026-06-15T13:17:45.644Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 54,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026061554",
+            "first_name": "Samaksh",
+            "last_name": "Rattan",
+            "phone": "8987809878",
+            "email": "Samaksh@gmail.com",
+            "address_line_1": "Hoshiarpur",
+            "address_line_2": "Hoshiarpur",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Hoshiarpur",
+            "order_note": "",
+            "order_total": 2241.96,
+            "tax": 43.96,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-15T13:21:26.843Z",
+            "updated_at": "2026-06-15T13:21:26.849Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 55,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026061555",
+            "first_name": "sanjana",
+            "last_name": "sharma",
+            "phone": "9806785678",
+            "email": "sanjana@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-15T13:29:27.549Z",
+            "updated_at": "2026-06-15T13:29:27.559Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 56,
+        "fields": {
+            "user": 1,
+            "payment": null,
+            "order_number": "2026061656",
+            "first_name": "rahul",
+            "last_name": "verma",
+            "phone": "9086456754",
+            "email": "rahul@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": false,
+            "created_at": "2026-06-16T11:49:07.807Z",
+            "updated_at": "2026-06-16T11:49:07.815Z"
+        }
+    },
+    {
+        "model": "orders.order",
+        "pk": 57,
+        "fields": {
+            "user": 1,
+            "payment": 16,
+            "order_number": "2026061657",
+            "first_name": "rahul",
+            "last_name": "verma",
+            "phone": "9086456754",
+            "email": "rahul@gmail.com",
+            "address_line_1": "Chandigarh",
+            "address_line_2": "Chandigarh",
+            "country": "India",
+            "state": "Punjab",
+            "city": "Mohali",
+            "order_note": "",
+            "order_total": 816.0,
+            "tax": 16.0,
+            "status": "New",
+            "ip": "127.0.0.1",
+            "is_ordered": true,
+            "created_at": "2026-06-16T12:00:46.032Z",
+            "updated_at": "2026-06-16T12:01:23.812Z"
+        }
+    },
+    {
+        "model": "orders.orderproduct",
+        "pk": 22,
+        "fields": {
+            "order": 57,
+            "payment": 16,
+            "user": 1,
+            "product": 9,
+            "quantity": 1,
+            "product_price": 800.0,
+            "ordered": true,
+            "created_at": "2026-06-16T12:01:23.824Z",
+            "updated_at": "2026-06-16T12:01:23.846Z",
+            "variations": [
+                13,
+                16
+            ]
+        }
+    }
+]
