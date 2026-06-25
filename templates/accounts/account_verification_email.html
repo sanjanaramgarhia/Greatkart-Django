@@ -1,10 +1,19 @@
-{% autoescape off %}
+<!DOCTYPE html>
+<html>
 
-Hi {{user.first_name}},
+<body>
+    <p>Hi {{ user.first_name }},</p>
 
-Please click on below link to confirm your registration.
-http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+    <p>Please click on the link below to confirm your registration.</p>
 
-If you think it's not you, please ignore this email.
+    <a href="http://{{ domain }}{% url 'activate' uidb64=uid token=token %}">
+        Activate My Account
+    </a>
 
-{% endautoescape %}
+    <p>Or copy and paste this link in your browser:</p>
+    <p>http://{{ domain }}{% url 'activate' uidb64=uid token=token %}</p>
+
+    <p>If you did not create an account, please ignore this email.</p>
+</body>
+
+</html>

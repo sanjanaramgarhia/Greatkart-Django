@@ -48,12 +48,13 @@ def register(request):
             mail_subject = 'Please activate your account'
             message = render_to_string('accounts/account_verification_email.html', {
                 'user': user,
-                'domain': current_site,
+                'domain': current_site.domain,
                 'uid': urlsafe_base64_encode(force_bytes(user.pk)),
                 'token': default_token_generator.make_token(user),
             })
             to_email = email
             send_email = EmailMessage(mail_subject, message, to=[to_email])
+            send_email.content_subtype = 'html'  # ← only change
             send_email.send()
             # messages.success(request,'Thank you for registering with us. We have sent you a verification email to your email address. Please verify it.')
             return redirect('/accounts/login/?command=verification&email='+email)
