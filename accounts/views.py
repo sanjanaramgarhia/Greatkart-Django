@@ -6,6 +6,8 @@ from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from .forms import UserForm
+import requests
+from decouple import config
 
 # Verification email
 from django.contrib.sites.shortcuts import get_current_site
@@ -53,9 +55,19 @@ def register(request):
                 'token': default_token_generator.make_token(user),
             })
             to_email = email
-            send_email = EmailMessage(mail_subject, message, to=[to_email])
-            send_email.content_subtype = 'html'  # ← only change
-            send_email.send()
+            requests.post(
+                "https://api.brevo.com/v3/smtp/email",
+                headers={
+                    "api-key": config("BREVO_API_KEY"),
+                    "Content-Type": "application/json"
+                },
+                json={
+                    "sender": {"name": "Greatkart", "email": config("SENDER_EMAIL")},
+                    "to": [{"email": to_email}],
+                    "subject": mail_subject,
+                    "htmlContent": message
+                }
+            )
             # messages.success(request,'Thank you for registering with us. We have sent you a verification email to your email address. Please verify it.')
             return redirect('/accounts/login/?command=verification&email='+email)
     else:
