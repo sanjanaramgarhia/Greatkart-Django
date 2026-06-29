@@ -8,6 +8,8 @@ import datetime
 from .models import Order, Payment, OrderProduct
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
+import requests
+from decouple import config
 
 
 def payments(request):
@@ -54,19 +56,29 @@ def payments(request):
         product.stock -= item.quantity
         product.save()
 
-# Clear cart
+    # Clear cart
     Cartitem.objects.filter(user=request.user).delete()
 
-# Send order recieved email to customer
+    # Send order recieved email to customer
     mail_subject = 'Thank you for your order!'
     message = render_to_string('orders/order_recieved_email.html', {
         'user': request.user,
         'order': order,
     })
     to_email = request.user.email
-    send_email = EmailMessage(mail_subject, message, to=[to_email])
-    send_email.send()
-
+    requests.post(
+        "https://api.brevo.com/v3/smtp/email",
+        headers={
+            "api-key": config("BREVO_API_KEY"),
+            "Content-Type": "application/json"
+        },
+        json={
+            "sender": {"name": "Greatkart", "email": config("SENDER_EMAIL")},
+            "to": [{"email": to_email}],
+            "subject": mail_subject,
+            "htmlContent": message
+        }
+    )
     # Send order number and transaction id back to sendData method via JsonResponse
     data = {
         'order_number': order.order_number,
