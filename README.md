@@ -1,6 +1,7 @@
 # 🛒 GreatKart - Django E-Commerce Application
 
 A full-featured E-Commerce web application built with Django that simulates a real-world online shopping platform. The application includes user authentication, product management, shopping cart functionality, PayPal payment integration, order processing, product reviews, ratings, and user profile management.
+Live - https://greatkart-django-y976.onrender.com/
 
 ## 🏠 Homepage
 
